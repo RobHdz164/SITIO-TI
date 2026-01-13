@@ -1,8 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1{
     color: blue;
 }
+
 body{
-    background-color: lightblue;
+    background-color: #2d5a7b;
+    font-family: Arial, sans-serif;
+    padding: 20px 0;
 }
 #encabezado{
     background-color: white;
@@ -51,5 +60,98 @@ body{
 .logo img{
     max-width: 100%;
     height: auto;
+}
+
+/* Sección de Cards */
+.contenedor-cards {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    border: 5px solid #2d5a7b;
+}
+
+.card {
+    flex: 1;
+    background-color: orange;
+    padding: 30px;
+    border-radius: 5px;
+    border: 3px solid #2d5a7b;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card h3 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Sección Principal */
+.seccion-principal {
+    width: 80%;
+    margin: 30px auto;
+    background-color: lightgreen;
+    padding: 100px 40px;
+    border-radius: 10px;
+    border: 5px solid #2d5a7b;
+    text-align: center;
+}
+
+.seccion-principal h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.seccion-principal p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Pie de Página */
+.pie-pagina {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.pie-columna {
+    flex: 1;
+    background-color: orange;
+    padding: 40px;
+    border-radius: 5px;
+    border: 3px solid #2d5a7b;
+    text-align: center;
+}
+
+.pie-columna h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.pie-columna p {
+    color: white;
+    font-size: 14px;
+    margin: 10px 0;
 }
 
